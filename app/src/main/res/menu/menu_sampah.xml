@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.user.catatanku.Detail_Sampah">
+
+    <item
+        android:id="@+id/btn_restore"
+        android:icon="@drawable/ic_restore"
+        android:title="restore"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/delete_sampah"
+        android:icon="@drawable/ic_delete"
+        android:title="delete"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

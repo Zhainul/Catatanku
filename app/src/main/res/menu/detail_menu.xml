@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.user.catatanku.Detail_Catatan">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Bagikan catatan"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/tambah_image"
+        android:icon="@drawable/ic_add_a_photo"
+        android:title="Tambahkan Gambar"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

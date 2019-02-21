@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Catatanku</string>
+    <string name="hint_username_login">E-mail</string>
+    <string name="hint_pass_login">Password</string>
+    <string name="hint_ktp_reg">Nomor KTP</string>
+    <string name="hint_nama_reg">Nama Lengkap</string>
+    <string name="hint_telp_reg">Masukkan nomor telp anda</string>
+    <string name="hint_alamat_reg">Masukkan alamat anda</string>
+    <string name="btn_login">login</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="atau">Klik link di bawah ini untuk Register</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="edit_password">Ubah password</string>
+    <string name="nav_catatan">Catatan</string>
+    <string name="alamat">
+        Jl. A Satu Dusun Ketangi Lor Desa Lumbang Kecamatan Lumbang Kabupaten Probolinggo Jawa Timur
+    </string>
+    <string name="riwayat_pendidikan">
+        Pada tahun 2004 beliau mendaftar sekolah pertama kali di MI-Al Hidayah Lumbang di daerah
+        Probolinggo, selama disana beliau selau medapatkan peringkat 1 selama 6 tahun beturut-turut
+        hingga pada tahun 2010 beliau lulus dan melanjutkan ke SMPN 1 Lumbang.Pada tahun 2013 beliau lulus
+        dari SMPN 1 Lumbang dan melanjutkan ke bangku SMAN 1 Tongas. Saat di bangku SMA beliau mengambil
+        jurusan IPA dan lulus pada tahun 2016. Saat ini beliau sedang menempuh pendidikan di Universitas
+        Kanjuruhan Malang dengan Program Studi Sistem Informasi dengan konsentrasi Android Native Development
+    </string>
+
+    <string name="title_activity_image_viewer">ImageViewer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

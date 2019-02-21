@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "129149630040",
+    "firebase_url": "https://catatanku-3553a.firebaseio.com",
+    "project_id": "catatanku-3553a",
+    "storage_bucket": "catatanku-3553a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129149630040:android:77ac6a35a0f0b609",
+        "android_client_info": {
+          "package_name": "com.example.user.catatanku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129149630040-8ib4ru7e9gv53obopf5i99dcv8pti64n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.catatanku",
+            "certificate_hash": "105616d0828d23f7b3ca9cce1bcf81014da7b9a9"
+          }
+        },
+        {
+          "client_id": "129149630040-bo6ufcim9jrpkbdrjm98gbg3bi84iud3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwuGl92VLLrbC0MbtXT5RGIHUwweA_YI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129149630040-6hti7idtia83u087qfu60f82c24pm9mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icons"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <EditText
+                        android:id="@+id/edt_reg_nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_account"
+                        android:drawablePadding="5dp"
+                        android:textSize="16sp"
+                        android:inputType="text"
+                        android:hint="@string/hint_nama_reg"
+                        android:theme="@style/Appku"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@android:color/black"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <EditText
+                        android:id="@+id/edt_reg_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/email"
+                        android:drawablePadding="9dp"
+                        android:theme="@style/Appku"
+                        android:textSize="16sp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/hint_username_login"
+                        android:textColor="@android:color/black" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <EditText
+                        android:id="@+id/edt_reg_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:drawableStart="@drawable/ic_password"
+                        android:drawablePadding="9dp"
+                        android:textSize="16sp"
+                        android:theme="@style/Appku"
+                        android:hint="@string/hint_pass_login"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@android:color/black" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_regis_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login"
+                    android:layout_margin="5dp"
+                    android:text="Register"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
